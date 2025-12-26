@@ -1,11 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url(/mushroomgrow/images/backimage.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center calc(0% + (var(--scroll, 0) / 4));
-    background-attachment: scroll;
     justify-content: center;
     align-items: center;
     color: white;
