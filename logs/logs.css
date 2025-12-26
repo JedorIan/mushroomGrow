@@ -1,0 +1,27 @@
+th{
+    border: solid black 3px;
+    background-color: #0f1411;
+    color: #c9c5bb;
+    font-size: clamp(.85rem, 20px, 1.7rem);
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #c9c5bb;
+    color: #0f1411;
+}
+
+tbody tr:nth-child(even){
+    background-color: #0f1411;
+    color: #c9c5bb;
+}
+
+td{
+    border: solid black 1px;
+    font-size: clamp(.75rem, 15px, 1.5rem);
+}
