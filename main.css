@@ -109,20 +109,6 @@ body{
     background-color: #0f1411;
 }
 
-.pageTitle{
-    font-size: 15vw;
-    font-weight: bold;
-    margin: 0 10px 0 10px;
-    text-shadow: 3px 3px 5px gray;
-}
-
-.latinName{
-    font-size: 5vw;
-    font-style: italic;
-    font-weight: bolder;
-    margin: 0 10px 0 10px;
-}
-
 .infoCat{
     margin: 0 10px 0 10px;
     text-decoration: underline;
