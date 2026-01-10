@@ -36,6 +36,7 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: solid white 2vw;
 }
 
 h3{
@@ -56,7 +57,6 @@ h3{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 2vh 2vw;
     padding: 3vw;
 }
 
