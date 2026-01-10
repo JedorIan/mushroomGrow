@@ -48,11 +48,23 @@ h3{
 .indexBlock{
     width: 100%;
     margin: 10px 0 10px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2vh 2vw;
+    padding: 3vw;
 }
 
 a{
     display: block;
     color: inherit;
+
+}
+
+a p{
+    text-decoration: none;
 }
 
 .titleBlock{
